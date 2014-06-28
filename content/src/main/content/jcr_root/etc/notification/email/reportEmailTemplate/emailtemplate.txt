@@ -1,0 +1,19 @@
+Subject: ${reportFrequency} asset ${reportType} report for ${dateRange}
+
+<div style="font-size: 12px; font-weight: normal; color: #000000; font-family:Arial,Helvetica,Verdana,sans-serif;">
+
+Dear ${firstName},
+ 
+   Attached is the  ${reportFrequency} asset  ${reportType} report for ${dateRange}.
+ 
+Regards,
+System Administrator
+
+
+
+
+
+-------------------------------------------------------
+This email has been sent by electronic mail.  Please do not reply to this email.  
+
+<div>

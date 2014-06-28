@@ -1,0 +1,7 @@
+bundle/target
+content/target
+.idea/
+*.iml
+.project/
+.settings/
+
