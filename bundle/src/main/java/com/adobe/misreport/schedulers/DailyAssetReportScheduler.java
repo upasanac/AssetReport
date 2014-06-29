@@ -1,7 +1,6 @@
 package com.adobe.misreport.schedulers;
 
 import com.adobe.misreport.constants.MISReportConstant;
-import com.adobe.misreport.jobs.DailyReportJob;
 import com.adobe.misreport.jobs.ReportJob;
 import com.day.crx.statistics.Report;
 import org.apache.felix.scr.annotations.*;

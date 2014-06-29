@@ -2,7 +2,6 @@ package com.adobe.misreport.schedulers;
 
 import com.adobe.misreport.constants.MISReportConstant;
 import com.adobe.misreport.jobs.ReportJob;
-import com.adobe.misreport.jobs.WeeklyReportJob;
 import org.apache.felix.scr.annotations.*;
 import org.apache.sling.commons.scheduler.Scheduler;
 import org.osgi.framework.BundleContext;
