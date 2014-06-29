@@ -21,7 +21,7 @@ import com.adobe.misreport.GenerateReport;
 import com.adobe.misreport.UserManagement;
 import com.adobe.misreport.constants.MISReportConstant;
 import com.adobe.misreport.utils.MISReportUtil;
- 
+
 @SlingServlet(paths="/bin/report/assetreport",extensions="json",methods="GET")
 public class MISReportServlet extends SlingSafeMethodsServlet {
 
