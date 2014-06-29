@@ -79,7 +79,7 @@ public class ReportJob implements Runnable {
 
                     log.info("Sending EMAIL report...");
 
-                    /*String templatePath = MISReportConstant.REPORT_EMAIL_TEMPLATE;
+                    String templatePath = MISReportConstant.REPORT_EMAIL_TEMPLATE;
                     Map<String, String> emailParams = MISReportUtil.buildEmailParams(reportType, reportFrequency, dateRange);
 
                     DataSource reportDatasource = generateReport.generateReport(lowerBoundDate, upperBoundDate, reportType, session);
@@ -95,7 +95,7 @@ public class ReportJob implements Runnable {
 
                         emailService.sendEmail(templatePath, emailParams, session, reportDatasource, userManagement.getEmailAddress(authorID, session));
 
-                    }*/
+                    }
 
                 } catch(Exception e) {
                     log.error("[Exception]",e);
